@@ -1,0 +1,29 @@
+{
+  "name": "electric-car-fa-api",
+  "version": "1.0.0",
+  "description": "An electric car financial analysis tool to understand how better is to change from petrol derivades cars to an electric car",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Climate-Action-Open-Source-Initiative/electric-car-fa-api.git"
+  },
+  "author": "caosi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Climate-Action-Open-Source-Initiative/electric-car-fa-api/issues"
+  },
+  "homepage": "https://github.com/Climate-Action-Open-Source-Initiative/electric-car-fa-api#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
